@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6A4F6C4184257B6008FB351 /* PopularMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A4F6C2184257B6008FB351 /* PopularMediaViewController.m */; };
+		D6A4F6C5184257B6008FB351 /* PopularMediaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6A4F6C3184257B6008FB351 /* PopularMediaViewController.xib */; };
+		D6A4F6C818427EF6008FB351 /* MediaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A4F6C718427EF6008FB351 /* MediaManager.m */; };
+		D6A4F6CB1842968A008FB351 /* MediaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A4F6CA1842968A008FB351 /* MediaObject.m */; };
+		D6A4F6D01842B443008FB351 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A4F6CE1842B443008FB351 /* ImageViewController.m */; };
+		D6A4F6D11842B443008FB351 /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6A4F6CF1842B443008FB351 /* ImageViewController.xib */; };
+		D6A4F6D71842B76B008FB351 /* PopularMediaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A4F6D61842B76B008FB351 /* PopularMediaCell.m */; };
 		D6D8BD07184163D3008E7ABF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D8BD06184163D3008E7ABF /* Foundation.framework */; };
 		D6D8BD09184163D3008E7ABF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D8BD08184163D3008E7ABF /* CoreGraphics.framework */; };
 		D6D8BD0B184163D3008E7ABF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D8BD0A184163D3008E7ABF /* UIKit.framework */; };
@@ -32,20 +39,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D6D8BD03184163D3008E7ABF /* SuperApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A4F6C1184257B6008FB351 /* PopularMediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopularMediaViewController.h; sourceTree = "<group>"; };
+		D6A4F6C2184257B6008FB351 /* PopularMediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopularMediaViewController.m; sourceTree = "<group>"; };
+		D6A4F6C3184257B6008FB351 /* PopularMediaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopularMediaViewController.xib; sourceTree = "<group>"; };
+		D6A4F6C618427EF6008FB351 /* MediaManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaManager.h; sourceTree = "<group>"; };
+		D6A4F6C718427EF6008FB351 /* MediaManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaManager.m; sourceTree = "<group>"; };
+		D6A4F6C91842968A008FB351 /* MediaObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaObject.h; sourceTree = "<group>"; };
+		D6A4F6CA1842968A008FB351 /* MediaObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaObject.m; sourceTree = "<group>"; };
+		D6A4F6CD1842B443008FB351 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		D6A4F6CE1842B443008FB351 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		D6A4F6CF1842B443008FB351 /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
+		D6A4F6D51842B76B008FB351 /* PopularMediaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopularMediaCell.h; sourceTree = "<group>"; };
+		D6A4F6D61842B76B008FB351 /* PopularMediaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopularMediaCell.m; sourceTree = "<group>"; };
+		D6D8BD03184163D3008E7ABF /* iClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D8BD06184163D3008E7ABF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D6D8BD08184163D3008E7ABF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D6D8BD0A184163D3008E7ABF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		D6D8BD0E184163D3008E7ABF /* SuperApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuperApp-Info.plist"; sourceTree = "<group>"; };
+		D6D8BD0E184163D3008E7ABF /* iClone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iClone-Info.plist"; sourceTree = "<group>"; };
 		D6D8BD10184163D3008E7ABF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D6D8BD12184163D3008E7ABF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D6D8BD14184163D3008E7ABF /* SuperApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SuperApp-Prefix.pch"; sourceTree = "<group>"; };
+		D6D8BD14184163D3008E7ABF /* iClone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iClone-Prefix.pch"; sourceTree = "<group>"; };
 		D6D8BD15184163D3008E7ABF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6D8BD16184163D3008E7ABF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D6D8BD18184163D3008E7ABF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D6D8BD1E184163D3008E7ABF /* SuperAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D8BD1E184163D3008E7ABF /* iCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D8BD1F184163D3008E7ABF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		D6D8BD27184163D3008E7ABF /* SuperAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuperAppTests-Info.plist"; sourceTree = "<group>"; };
+		D6D8BD27184163D3008E7ABF /* iCloneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCloneTests-Info.plist"; sourceTree = "<group>"; };
 		D6D8BD29184163D3008E7ABF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D6D8BD2B184163D3008E7ABF /* SuperAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperAppTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,11 +93,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D6A4F6CC1842B410008FB351 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D6A4F6C1184257B6008FB351 /* PopularMediaViewController.h */,
+				D6A4F6C2184257B6008FB351 /* PopularMediaViewController.m */,
+				D6A4F6C3184257B6008FB351 /* PopularMediaViewController.xib */,
+				D6A4F6CD1842B443008FB351 /* ImageViewController.h */,
+				D6A4F6CE1842B443008FB351 /* ImageViewController.m */,
+				D6A4F6CF1842B443008FB351 /* ImageViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D6A4F6D21842B593008FB351 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6A4F6C91842968A008FB351 /* MediaObject.h */,
+				D6A4F6CA1842968A008FB351 /* MediaObject.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D6A4F6D31842B5A5008FB351 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				D6A4F6C618427EF6008FB351 /* MediaManager.h */,
+				D6A4F6C718427EF6008FB351 /* MediaManager.m */,
+			);
+			name = Server;
+			sourceTree = "<group>";
+		};
+		D6A4F6D41842B73E008FB351 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D6A4F6D51842B76B008FB351 /* PopularMediaCell.h */,
+				D6A4F6D61842B76B008FB351 /* PopularMediaCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		D6D8BCFA184163D3008E7ABF = {
 			isa = PBXGroup;
 			children = (
-				D6D8BD0C184163D3008E7ABF /* SuperApp */,
-				D6D8BD25184163D3008E7ABF /* SuperAppTests */,
+				D6D8BD0C184163D3008E7ABF /* iClone */,
+				D6D8BD25184163D3008E7ABF /* iCloneTests */,
 				D6D8BD05184163D3008E7ABF /* Frameworks */,
 				D6D8BD04184163D3008E7ABF /* Products */,
 			);
@@ -87,8 +146,8 @@
 		D6D8BD04184163D3008E7ABF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D6D8BD03184163D3008E7ABF /* SuperApp.app */,
-				D6D8BD1E184163D3008E7ABF /* SuperAppTests.xctest */,
+				D6D8BD03184163D3008E7ABF /* iClone.app */,
+				D6D8BD1E184163D3008E7ABF /* iCloneTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,41 +163,47 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D6D8BD0C184163D3008E7ABF /* SuperApp */ = {
+		D6D8BD0C184163D3008E7ABF /* iClone */ = {
 			isa = PBXGroup;
 			children = (
+				D6A4F6D41842B73E008FB351 /* Cells */,
+				D6A4F6D31842B5A5008FB351 /* Server */,
+				D6A4F6D21842B593008FB351 /* Model */,
+				D6A4F6CC1842B410008FB351 /* ViewControllers */,
 				D6D8BD15184163D3008E7ABF /* AppDelegate.h */,
 				D6D8BD16184163D3008E7ABF /* AppDelegate.m */,
 				D6D8BD18184163D3008E7ABF /* Images.xcassets */,
 				D6D8BD0D184163D3008E7ABF /* Supporting Files */,
 			);
+			name = iClone;
 			path = SuperApp;
 			sourceTree = "<group>";
 		};
 		D6D8BD0D184163D3008E7ABF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D6D8BD0E184163D3008E7ABF /* SuperApp-Info.plist */,
+				D6D8BD0E184163D3008E7ABF /* iClone-Info.plist */,
 				D6D8BD0F184163D3008E7ABF /* InfoPlist.strings */,
 				D6D8BD12184163D3008E7ABF /* main.m */,
-				D6D8BD14184163D3008E7ABF /* SuperApp-Prefix.pch */,
+				D6D8BD14184163D3008E7ABF /* iClone-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D6D8BD25184163D3008E7ABF /* SuperAppTests */ = {
+		D6D8BD25184163D3008E7ABF /* iCloneTests */ = {
 			isa = PBXGroup;
 			children = (
 				D6D8BD2B184163D3008E7ABF /* SuperAppTests.m */,
 				D6D8BD26184163D3008E7ABF /* Supporting Files */,
 			);
+			name = iCloneTests;
 			path = SuperAppTests;
 			sourceTree = "<group>";
 		};
 		D6D8BD26184163D3008E7ABF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D6D8BD27184163D3008E7ABF /* SuperAppTests-Info.plist */,
+				D6D8BD27184163D3008E7ABF /* iCloneTests-Info.plist */,
 				D6D8BD28184163D3008E7ABF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -147,9 +212,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D6D8BD02184163D3008E7ABF /* SuperApp */ = {
+		D6D8BD02184163D3008E7ABF /* iClone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6D8BD2F184163D3008E7ABF /* Build configuration list for PBXNativeTarget "SuperApp" */;
+			buildConfigurationList = D6D8BD2F184163D3008E7ABF /* Build configuration list for PBXNativeTarget "iClone" */;
 			buildPhases = (
 				D6D8BCFF184163D3008E7ABF /* Sources */,
 				D6D8BD00184163D3008E7ABF /* Frameworks */,
@@ -159,14 +224,14 @@
 			);
 			dependencies = (
 			);
-			name = SuperApp;
+			name = iClone;
 			productName = SuperApp;
-			productReference = D6D8BD03184163D3008E7ABF /* SuperApp.app */;
+			productReference = D6D8BD03184163D3008E7ABF /* iClone.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D6D8BD1D184163D3008E7ABF /* SuperAppTests */ = {
+		D6D8BD1D184163D3008E7ABF /* iCloneTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6D8BD32184163D3008E7ABF /* Build configuration list for PBXNativeTarget "SuperAppTests" */;
+			buildConfigurationList = D6D8BD32184163D3008E7ABF /* Build configuration list for PBXNativeTarget "iCloneTests" */;
 			buildPhases = (
 				D6D8BD1A184163D3008E7ABF /* Sources */,
 				D6D8BD1B184163D3008E7ABF /* Frameworks */,
@@ -177,9 +242,9 @@
 			dependencies = (
 				D6D8BD24184163D3008E7ABF /* PBXTargetDependency */,
 			);
-			name = SuperAppTests;
+			name = iCloneTests;
 			productName = SuperAppTests;
-			productReference = D6D8BD1E184163D3008E7ABF /* SuperAppTests.xctest */;
+			productReference = D6D8BD1E184163D3008E7ABF /* iCloneTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -196,7 +261,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D6D8BCFE184163D3008E7ABF /* Build configuration list for PBXProject "SuperApp" */;
+			buildConfigurationList = D6D8BCFE184163D3008E7ABF /* Build configuration list for PBXProject "iClone" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -208,8 +273,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D6D8BD02184163D3008E7ABF /* SuperApp */,
-				D6D8BD1D184163D3008E7ABF /* SuperAppTests */,
+				D6D8BD02184163D3008E7ABF /* iClone */,
+				D6D8BD1D184163D3008E7ABF /* iCloneTests */,
 			);
 		};
 /* End PBXProject section */
@@ -219,7 +284,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A4F6C5184257B6008FB351 /* PopularMediaViewController.xib in Resources */,
 				D6D8BD11184163D3008E7ABF /* InfoPlist.strings in Resources */,
+				D6A4F6D11842B443008FB351 /* ImageViewController.xib in Resources */,
 				D6D8BD19184163D3008E7ABF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,8 +306,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A4F6D01842B443008FB351 /* ImageViewController.m in Sources */,
+				D6A4F6C818427EF6008FB351 /* MediaManager.m in Sources */,
+				D6A4F6D71842B76B008FB351 /* PopularMediaCell.m in Sources */,
 				D6D8BD17184163D3008E7ABF /* AppDelegate.m in Sources */,
 				D6D8BD13184163D3008E7ABF /* main.m in Sources */,
+				D6A4F6CB1842968A008FB351 /* MediaObject.m in Sources */,
+				D6A4F6C4184257B6008FB351 /* PopularMediaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +329,7 @@
 /* Begin PBXTargetDependency section */
 		D6D8BD24184163D3008E7ABF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D6D8BD02184163D3008E7ABF /* SuperApp */;
+			target = D6D8BD02184163D3008E7ABF /* iClone */;
 			targetProxy = D6D8BD23184163D3008E7ABF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -362,9 +434,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SuperApp/SuperApp-Prefix.pch";
-				INFOPLIST_FILE = "SuperApp/SuperApp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "SuperApp/iClone-Prefix.pch";
+				INFOPLIST_FILE = "SuperApp/iClone-Info.plist";
+				PRODUCT_NAME = iClone;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -375,9 +447,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SuperApp/SuperApp-Prefix.pch";
-				INFOPLIST_FILE = "SuperApp/SuperApp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "SuperApp/iClone-Prefix.pch";
+				INFOPLIST_FILE = "SuperApp/iClone-Info.plist";
+				PRODUCT_NAME = iClone;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -398,8 +470,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "SuperAppTests/SuperAppTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "SuperAppTests/iCloneTests-Info.plist";
+				PRODUCT_NAME = iCloneTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -417,8 +489,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SuperApp/SuperApp-Prefix.pch";
-				INFOPLIST_FILE = "SuperAppTests/SuperAppTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "SuperAppTests/iCloneTests-Info.plist";
+				PRODUCT_NAME = iCloneTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -427,7 +499,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D6D8BCFE184163D3008E7ABF /* Build configuration list for PBXProject "SuperApp" */ = {
+		D6D8BCFE184163D3008E7ABF /* Build configuration list for PBXProject "iClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D6D8BD2D184163D3008E7ABF /* Debug */,
@@ -436,21 +508,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6D8BD2F184163D3008E7ABF /* Build configuration list for PBXNativeTarget "SuperApp" */ = {
+		D6D8BD2F184163D3008E7ABF /* Build configuration list for PBXNativeTarget "iClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D6D8BD30184163D3008E7ABF /* Debug */,
 				D6D8BD31184163D3008E7ABF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		D6D8BD32184163D3008E7ABF /* Build configuration list for PBXNativeTarget "SuperAppTests" */ = {
+		D6D8BD32184163D3008E7ABF /* Build configuration list for PBXNativeTarget "iCloneTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D6D8BD33184163D3008E7ABF /* Debug */,
 				D6D8BD34184163D3008E7ABF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

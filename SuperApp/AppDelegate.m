@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "PopularMediaViewController.h"
 
 @implementation AppDelegate
 
@@ -14,7 +15,20 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    // create a new view controller
+    PopularMediaViewController *vc = [[PopularMediaViewController alloc] initWithNibName:@"PopularMediaViewController" bundle:nil];
+    
+    // creates the nativation controller with
+    // the view controller as its root view
+    UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    // assign the navigation controller
+    // as the root view of the window
+    [self.window setRootViewController:nc];
+    
+    
+    self.window.backgroundColor = [UIColor darkGrayColor];
     [self.window makeKeyAndVisible];
     return YES;
 }

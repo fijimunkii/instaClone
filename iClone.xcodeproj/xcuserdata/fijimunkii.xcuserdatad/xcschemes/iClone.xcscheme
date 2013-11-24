@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D6D8BD02184163D3008E7ABF"
                BuildableName = "SuperApp.app"
-               BlueprintName = "SuperApp"
-               ReferencedContainer = "container:SuperApp.xcodeproj">
+               BlueprintName = "iClone"
+               ReferencedContainer = "container:iClone.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D6D8BD1D184163D3008E7ABF"
                BuildableName = "SuperAppTests.xctest"
-               BlueprintName = "SuperAppTests"
-               ReferencedContainer = "container:SuperApp.xcodeproj">
+               BlueprintName = "iCloneTests"
+               ReferencedContainer = "container:iClone.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D6D8BD02184163D3008E7ABF"
             BuildableName = "SuperApp.app"
-            BlueprintName = "SuperApp"
-            ReferencedContainer = "container:SuperApp.xcodeproj">
+            BlueprintName = "iClone"
+            ReferencedContainer = "container:iClone.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D6D8BD02184163D3008E7ABF"
             BuildableName = "SuperApp.app"
-            BlueprintName = "SuperApp"
-            ReferencedContainer = "container:SuperApp.xcodeproj">
+            BlueprintName = "iClone"
+            ReferencedContainer = "container:iClone.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D6D8BD02184163D3008E7ABF"
             BuildableName = "SuperApp.app"
-            BlueprintName = "SuperApp"
-            ReferencedContainer = "container:SuperApp.xcodeproj">
+            BlueprintName = "iClone"
+            ReferencedContainer = "container:iClone.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
